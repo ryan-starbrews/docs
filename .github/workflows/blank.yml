@@ -1,0 +1,28 @@
+bname: Discord Notification
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, closed]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          curl -H "Content-Type: application/json" \
+               -d '{
+                 "content": "'"$GITHUB_ACTOR"' just pushed to '"$GITHUB_REPOSITORY"'",
+                 "embeds": [{
+                   "title": "New Push to Repository",
+                   "description": "Branch: '"$GITHUB_REF_NAME"'\nCommit: '"$GITHUB_SHA"'",
+                   "color": 5814783,
+                   "url": "'"$GITHUB_SERVER_URL"'/'"$GITHUB_REPOSITORY"'/commit/'"$GITHUB_SHA"'"
+                 }]
+               }' \
+               $DISCORD_WEBHOOK
