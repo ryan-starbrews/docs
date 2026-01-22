@@ -57,5 +57,23 @@
       "github": "https://github.com/ryan-starbrews/docs",
       "discord": "https://discord.gg/sKHWtDaJmr"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/hyra",
+      "destination": "https://app.hyra.io/69716626a0dddd4afa38f8c6"
+    },
+    {
+      "source": "/ticket",
+      "destination": "https://discord.com/users/1381762076229238825"
+    },
+    {
+      "source": "/roblox",
+      "destination": "https://www.roblox.com/communities/35525362/StarBrews-Corporation#!/about"
+    },
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/sKHWtDaJmr"
+    }
+  ]
 }
