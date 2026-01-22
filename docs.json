@@ -46,8 +46,16 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@starbews.cafe"
+        "label": "Roblox Group",
+        "href": "https://www.roblox.com/communities/35525362/StarBrews-Corporation#!/about"
+      },
+      {
+        "label": "Discord Server",
+        "href": "https://discord.gg/sKHWtDaJmr"
+      },
+      {
+        "label": "Hyra",
+        "href": "https://app.hyra.io/69716626a0dddd4afa38f8c6"
       }
     ],
     "primary": {
@@ -58,15 +66,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
