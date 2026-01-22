@@ -15,7 +15,7 @@
         "pages": [
           {
             "group": "Overview",
-            "icon": "folder",
+            "icon": "magnifying-glass",
             "pages": [
               "index"
             ]
