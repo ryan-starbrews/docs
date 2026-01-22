@@ -14,7 +14,8 @@
         "tab": "General Information",
         "pages": [
           {
-            "group": "Getting started",
+            "group": "Overview",
+            "icon": "folder",
             "pages": [
               "index"
             ]
@@ -28,6 +29,7 @@
             "group": "Hyra",
             "icon": "buildings",
             "pages": [
+              "staff-information/hyra/activity-requirements",
               "staff-information/hyra/viewing-activity",
               "staff-information/hyra/filing-a-leave-of-absence-loa",
               "staff-information/hyra/booking-sessions"
