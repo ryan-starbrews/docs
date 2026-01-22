@@ -13,9 +13,20 @@
       {
         "tab": "General Information",
         "pages": [
-          "index",
           {
             "group": "Getting started",
+            "pages": [
+              "index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Staff Information",
+        "groups": [
+          {
+            "group": "Hyra",
+            "icon": "buildings",
             "pages": []
           }
         ]
