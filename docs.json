@@ -27,7 +27,11 @@
           {
             "group": "Hyra",
             "icon": "buildings",
-            "pages": []
+            "pages": [
+              "staff-information/hyra/viewing-activity",
+              "staff-information/hyra/filing-a-leave-of-absence-loa",
+              "staff-information/hyra/booking-sessions"
+            ]
           }
         ]
       }
