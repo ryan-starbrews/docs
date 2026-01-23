@@ -17,7 +17,8 @@
             "group": "Overview",
             "icon": "magnifying-glass",
             "pages": [
-              "index"
+              "index",
+              "rules"
             ]
           }
         ]
