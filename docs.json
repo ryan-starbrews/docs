@@ -15,6 +15,7 @@
         "pages": [
           {
             "group": "Overview",
+            "icon": "magnifying-glass",
             "pages": [
               "index",
               "general-information/overview/guidelines",
@@ -38,9 +39,20 @@
             ]
           },
           {
-            "group": "Untitled Group",
-            "pages": []
+            "group": "Staff Guidelines",
+            "icon": "scroll",
+            "pages": [
+              "staff-information/staff-guidelines/low-rank-guidelines",
+              "staff-information/staff-guidelines/middle-rank-guidelines",
+              "staff-information/staff-guidelines/high-rank-guidelines"
+            ]
           }
+        ]
+      },
+      {
+        "tab": "Contact Information",
+        "pages": [
+          "contact"
         ]
       }
     ]
@@ -94,5 +106,17 @@
       "source": "/discord",
       "destination": "https://discord.gg/sKHWtDaJmr"
     }
-  ]
+  ],
+  "appearance": {
+    "strict": false,
+    "default": "dark"
+  },
+  "fonts": {
+    "family": "Plus Jakarta Sans"
+  },
+  "errors": {
+    "404": {
+      "description": "The page you are looking for cannot be found in our repository"
+    }
+  }
 }
