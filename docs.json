@@ -15,7 +15,6 @@
         "pages": [
           {
             "group": "Overview",
-            "icon": "magnifying-glass",
             "pages": [
               "index",
               "general-information/overview/guidelines"
