@@ -17,7 +17,9 @@
             "group": "Overview",
             "pages": [
               "index",
-              "general-information/overview/guidelines"
+              "general-information/overview/guidelines",
+              "faq",
+              "booster-perks"
             ]
           }
         ]
@@ -34,6 +36,10 @@
               "staff-information/hyra/loa",
               "staff-information/hyra/booking-sessions"
             ]
+          },
+          {
+            "group": "Untitled Group",
+            "pages": []
           }
         ]
       }
