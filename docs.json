@@ -46,6 +46,17 @@
               "staff-information/staff-guidelines/middle-rank-guidelines",
               "staff-information/staff-guidelines/high-rank-guidelines"
             ]
+          },
+          {
+            "group": "Staff Scripts",
+            "icon": "scroll",
+            "pages": [
+              "staff-information/scripts/low-rank-scrips",
+              "staff-information/scripts/middle-rank-scrips",
+              "staff-information/scripts/trainer-scrips",
+              "staff-information/scripts/high-rank-scrips",
+              "staff-information/scripts/host-scrips"
+            ]
           }
         ]
       },
