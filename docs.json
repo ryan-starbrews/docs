@@ -42,9 +42,9 @@
             "group": "Staff Guidelines",
             "icon": "scroll",
             "pages": [
-              "staff/guidelines/low-rank-guidelines",
-              "staff/guidelines/middle-rank-guidelines",
-              "staff/guidelines/high-rank-guidelines"
+              "guidelines/low-rank-guidelines",
+              "guidelines/middle-rank-guidelines",
+              "guidelines/high-rank-guidelines"
             ]
           },
           {
