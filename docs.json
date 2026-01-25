@@ -32,30 +32,30 @@
             "group": "Hyra",
             "icon": "buildings",
             "pages": [
-              "staff-information/hyra/activity-requirements",
-              "staff-information/hyra/viewing-activity",
-              "staff-information/hyra/loa",
-              "staff-information/hyra/booking-sessions"
+              "hyra/activity-requirements",
+              "hyra/viewing-activity",
+              "hyra/loa",
+              "hyra/booking-sessions"
             ]
           },
           {
             "group": "Staff Guidelines",
             "icon": "scroll",
             "pages": [
-              "staff-information/staff-guidelines/low-rank-guidelines",
-              "staff-information/staff-guidelines/middle-rank-guidelines",
-              "staff-information/staff-guidelines/high-rank-guidelines"
+              "staff/guidelines/low-rank-guidelines",
+              "staff/guidelines/middle-rank-guidelines",
+              "staff/guidelines/high-rank-guidelines"
             ]
           },
           {
             "group": "Staff Scripts",
             "icon": "scroll",
             "pages": [
-              "staff-information/scripts/low-rank-scrips",
-              "staff-information/scripts/middle-rank-scrips",
-              "staff-information/scripts/trainer-scrips",
-              "staff-information/scripts/high-rank-scrips",
-              "staff-information/scripts/host-scrips"
+              "scripts/low-rank-scrips",
+              "scripts/middle-rank-scrips",
+              "scripts/trainer-scrips",
+              "scripts/high-rank-scrips",
+              "scripts/host-scrips"
             ]
           }
         ]
